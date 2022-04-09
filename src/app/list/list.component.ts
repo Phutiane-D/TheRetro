@@ -25,18 +25,18 @@ export class ListComponent implements OnInit {
     },
     {
       srcName: "camping.jpg",
-      eventName: "",
-      eventDescription: "",
+      eventName: "Country Special",
+      eventDescription: "The best of country...",
     },
     {
-      srcName: "",
-      eventName: "",
-      eventDescription: "",
+      srcName: "fitness.jpg",
+      eventName: "FITMusic",
+      eventDescription: "The best exercise beats...",
     },
     {
-      srcName: "",
-      eventName: "",
-      eventDescription: "",
-    },
+      srcName: "bussiness.jpg",
+      eventName: "CorporateSound",
+      eventDescription: "Jam while you work",
+    }
   ]
 }

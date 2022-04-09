@@ -1,13 +1,15 @@
+
 .eventName {
   position: relative;
   width: 200px;
-  height: 24px;
-  left: 20px;
+  height: 20px;
+  text-align: right;
 }
 .details {
   position: relative;
   width: 150px;
   height: 25px;
-  top: 0px;
+  top: 15px;
+  bottom: 500px;
   left: 50px;
 }
