@@ -1,0 +1,14 @@
+.Container{
+    position: relative;
+    text-align: center;
+}
+
+.text{
+    position: absolute;
+    transform: translate(-50, -50);
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
