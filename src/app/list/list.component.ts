@@ -29,7 +29,7 @@ export class ListComponent implements OnInit {
       eventDescription: "The best of country...",
     },
     {
-      srcName: "fitness.jpg",
+      srcName: "confetti.jpg",
       eventName: "FITMusic",
       eventDescription: "The best exercise beats...",
     },
