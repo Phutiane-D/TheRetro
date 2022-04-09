@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-group',
@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GroupComponent implements OnInit {
 
+@Input() eventGroup: string ="";
+@Input() pictureG: string=""; 
+
   constructor() { }
 
   ngOnInit(): void {
   }
-
+onClick(){
+  console.log("Clicked");
+}
 }

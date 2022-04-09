@@ -1,1 +1,3 @@
-<p>home works!</p>
+<div class="box" *ngFor="let group of groupdata">
+    <app-group [eventGroup]="group.text" [pictureG]="group.imge"></app-group>
+</div>

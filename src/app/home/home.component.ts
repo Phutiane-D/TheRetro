@@ -5,11 +5,54 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent  {
 
   constructor() { }
 
-  ngOnInit(): void {
+  groupdata: any[] = [{
+    imge:"Bussiness.jpg",
+    text:"Business"
+  },
+  {
+    imge:"camping.jpg",
+    text:"Camping"
+  },
+  {
+    imge:"Concerts.jpg",
+    text:"Concerts"
+  },
+  {
+    imge:"Kiddies.jpg",
+    text:"Kiddies"
+  },
+  {
+    imge:"Meetups.jpg",
+    text:"Meetups"
+  },
+  {
+    imge:"Fitness.jpg",
+    text:"Fitness"
+  },
+  {
+    imge:"camping.jpg",
+    text:"Camping"
+  },
+  {
+    imge:"Concerts.jpg",
+    text:"Concerts"
+  },
+  {
+    imge:"Kiddies.jpg",
+    text:"Kiddies"
+  },
+  {
+    imge:"Meetups.jpg",
+    text:"Meetups"
+  },
+  {
+    imge:"Fitness.jpg",
+    text:"Fitness"
   }
+] 
 
 }
