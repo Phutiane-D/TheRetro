@@ -32,11 +32,6 @@ export class ListComponent implements OnInit {
       srcName: "confetti.jpg",
       eventName: "FITMusic",
       eventDescription: "The best exercise beats...",
-    },
-    {
-      srcName: "bussiness.jpg",
-      eventName: "CorporateSound",
-      eventDescription: "Jam while you work",
     }
   ]
 }
