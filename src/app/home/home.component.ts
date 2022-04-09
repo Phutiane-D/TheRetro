@@ -19,7 +19,7 @@ export class HomeComponent  {
   },
   {
     imge:"Concerts.jpg",
-    text:"Concerts"
+    text:"Music"
   },
   {
     imge:"Kiddies.jpg",
