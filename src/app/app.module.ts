@@ -7,6 +7,7 @@ import { EventComponent } from './event/event.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { GroupComponent } from './group/group.component';
 
 
 
@@ -14,7 +15,8 @@ import { MatListModule } from '@angular/material/list';
   declarations: [
     AppComponent,
     HomeComponent,
-    EventComponent
+    EventComponent,
+    GroupComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,11 @@
+.Container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
