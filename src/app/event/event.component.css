@@ -1,0 +1,13 @@
+.eventName {
+  position: relative;
+  width: 200px;
+  height: 24px;
+  left: 20px;
+}
+.details {
+  position: relative;
+  width: 150px;
+  height: 25px;
+  top: 0px;
+  left: 50px;
+}
